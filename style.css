@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: 0 1px 20px black;
+}
+
+.ufclogo{
+    width: 140px;
+    
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.lmenu{
+    width: 40%;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logomenu{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin: 0 6ch;
+    width: 140px;
+}
+
+.rmenu{
+    width: 40%;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.charlesdiego{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.asidecharles{
+    width: 25%;
+    border: 4px solid rgb(77, 69, 69);
+    background-color: rgba(37, 35, 35, 0.685);
+    padding: 0 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.imgcharles{
+    border: 8px rgb(197, 168, 4) solid;
+}
+
+.tituloaside{
+    color: rgb(240, 231, 231);
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; /* Deixa em maiúsculas */
+    letter-spacing: 0.5px;      /* Ajusta o espaçamento das letras */
+}
+
+.ulcharlesindex li{
+    margin-top: 40px;
+    color: white;
+}
+
+.h2noticias{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    margin-top: 5%;
+    font-size: 50px;
+    background-color: red;
+    width: 60%;
+    margin: 3% 20%;
+    justify-content: center;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: #ff0000 0 1px 8px;
+    border-radius: 3px;
+    color: white;
+}
+
+.entrevista-natalia{
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    gap: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
+    padding: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+    }
+
+.legenda-video-natalia{
+    font-size: 28px;
+}    
+
+.jonnyidx{
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    background-color: #ffffff; /* Cor de fundo idêntica ao card de cima */
+    box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
+    padding: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.foto-jonny{
+    width: 200;
+    height: 315;
+}
+
+.legenda-jonny{
+    font-size: 28px;
+}
+
+.figueiredoidx{
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    gap: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
+    padding: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.legenda-video-figueiredo{
+    font-size: 28px;
+}
+
+/* ============================================================
+   ESTILOS GERAIS DO RODAPÉ
+   ============================================================ */
+
+/* Estilização da caixa principal do rodapé */
+.rodape-ufc {
+  background-color: #0d0d0d; /* Fundo cinza quase preto (estilo escuro do UFC) */
+  color: #ffffff;            /* Cor do texto geral em branco */
+  padding: 40px 20px 20px;   /* Espaçamento interno: 40px no topo, 20px nas laterais, 20px em baixo */
+  margin-top: 60px;          /* Espaço exterior na parte superior para afastar do conteúdo do site */
+  width: 100%;               /* Garante que o rodapé ocupe a largura total do ecrã */
+  box-sizing: border-box;    /* Garante que o padding não faça a largura passar dos 100% */
+}
+
+/* Container interno que limita a largura do conteúdo central */
+.rodape-conteudo {
+  max-width: 1100px; /* Largura máxima para alinhar o conteúdo com o centro da página */
+  margin: 0 auto;    /* Centraliza o bloco na horizontal */
+}
+
+/* ============================================================
+   SECCÃO SUPERIOR (LOGO E REDES SOCIAIS)
+   ============================================================ */
+
+.rodape-topo {
+  display: flex;                /* Ativa o Flexbox para alinhar itens lado a lado */
+  justify-content: space-between;/* Atira o logo para a esquerda e as redes sociais para a direita */
+  align-items: center;         /* Centraliza o logo e os links verticalmente */
+  flex-wrap: wrap;              /* Permite que os elementos se moldem caso o ecrã seja pequeno */
+  gap: 15px;                    /* Espaço mínimo de segurança entre o logo e as redes */
+}
+
+/* Estilo do texto "UFC" */
+.logo-rodape {
+  font-family: 'Oswald', 'Impact', sans-serif; /* Aplica a fonte marcante e espessa */
+  font-size: 2.5rem;          /* Tamanho grande de texto */
+  font-weight: bold;          /* Texto em negrito */
+  letter-spacing: 1.5px;      /* Ligeiro afastamento entre as letras */
+  color: #ffffff;             /* Cor branca */
+}
+
+/* Links das redes sociais */
+.redes-sociais a {
+  color: #aaaaaa;             /* Cor cinza claro para os links em estado normal */
+  text-decoration: none;      /* Remove o sublinhado padrão dos links */
+  margin-left: 20px;          /* Dá espaço entre cada link social */
+  font-size: 0.9rem;          /* Tamanho de letra ligeiramente reduzido */
+  transition: color 0.2s ease-in-out; /* Transição suave na mudança de cor ao passar o rato */
+}
+
+/* Efeito ao passar o rato (hover) nas redes sociais */
+.redes-sociais a:hover {
+  color: #d20a0a; /* Muda a cor para o vermelho oficial do UFC */
+}
+
+/* ============================================================
+   LINHA DIVISÓRIA
+   ============================================================ */
+
+.linha-divisoria {
+  border: 0;                   /* Remove a borda padrão do elemento <hr> */
+  border-top: 1px solid #262626; /*Cria uma linha fina num tom de cinza escuro */
+  margin: 25px 0;              /* Dá 25px de margem em cima e em baixo */
+}
+
+/* ============================================================
+   SECCÃO CENTRAL (COLUNAS DE LINKS)
+   ============================================================ */
+
+.rodape-colunas {
+  display: flex;                 /* Usa Flexbox para colocar as colunas lado a lado */
+  justify-content: space-between; /* Distribui as colunas proporcionalmente */
+  flex-wrap: wrap;               /* Permite que as colunas quebrem linha em ecrãs menores */
+  gap: 30px;                     /* Espaço entre cada coluna */
+}
+
+/* Títulos das colunas ("Navegação", "Conteúdo", "Institucional") */
+.coluna h4 {
+  font-family: 'Oswald', sans-serif; /* Fonte do estilo UFC */
+  text-transform: uppercase;         /* Força todas as letras a ficarem em Maiúsculas */
+  color: #d20a0a;                    /* Vermelho UFC */
+  margin-bottom: 15px;               /* Distância entre o título e a lista de links */
+  font-size: 1.1rem;                 /* Tamanho do título */
+  letter-spacing: 0.5px;             /* Espaçamento entre letras */
+}
+
+/* Limpeza das listas de links */
+.coluna ul {
+  list-style: none; /* Remove os pontos/bolinhas padrão da lista (<ul>) */
+  padding: 0;       /* Remove o recuo padrão interno */
+  margin: 0;        /* Remove as margens padrão */
+}
+
+/* Cada item individual da lista */
+.coluna ul li {
+  margin-bottom: 10px; /* Distância vertical entre cada item da lista */
+}
+
+/* Links das colunas */
+.coluna ul li a {
+  color: #888888;                     /* Cinza médio para leitura agradável */
+  text-decoration: none;             /* Sem sublinhado */
+  font-size: 0.9rem;                 /* Tamanho do texto */
+  transition: color 0.2s ease-in-out;/* Transição suave ao passar o rato */
+}
+
+/* Efeito de hover nos links das colunas */
+.coluna ul li a:hover {
+  color: #ffffff; /* O texto passa a branco quando o rato está em cima */
+}
+
+/* ============================================================
+   BASE DO RODAPÉ (COPYRIGHT E CRÉDITOS)
+   ============================================================ */
+
+.rodape-base {
+  margin-top: 40px;            /* Espaçamento acima em relação às colunas */
+  padding-top: 20px;           /* Espaçamento interno superior */
+  border-top: 1px solid #1a1a1a;/* Linha topo muito subtil para separar a área final */
+  text-align: center;          /* Centraliza o texto no meio do ecrã */
+  font-size: 0.8rem;           /* Texto pequeno para avisos legais */
+  color: #666666;              /* Tom de cinza mais apagado */
+}
+
+/* Subtexto referente aos créditos do curso */
+.rodape-base .creditos {
+  margin-top: 5px;             /* Pequeno espaço acima */
+  color: #444444;              /* Tom de cinza ainda mais discreto */
+}
+
+.titulo-categoria-masculino{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    font-size: 40px;
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    margin: 3% auto;
+    justify-content: center;
+    border-bottom:solid black 3px;
+    border-top: black solid 2px;
+    box-shadow: #0c0c0c 0 1px 8px;
+    color: white;
+}
+
+.sub-titulos-cm{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(119, 9, 9);
+    width: 70%;
+    height: 70px;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: #474747 0 1px 8px;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.top3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.a1{
+  text-align: center;
+  box-shadow: #0c0c0c 0 1px 6px;
+  margin-top: 10px;
+}
+
+.pr{
+  background-color: rgb(184, 115, 51);
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.a2{
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: #0c0c0c 0 1px 15px;
+}
+
+.ca{
+  background-color: rgb(245, 197, 40);
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.a3{
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: #0c0c0c 0 1px 6px;
+}
+
+.sr{
+  background-color: silver;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
