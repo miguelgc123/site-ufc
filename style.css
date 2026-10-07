@@ -292,7 +292,7 @@ nav{
   color: #444444;              /* Tom de cinza ainda mais discreto */
 }
 
-.titulo-categoria-masculino{
+.titulo-categoria-genero{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -335,6 +335,7 @@ nav{
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 80px;
 }
 
 .a1{
