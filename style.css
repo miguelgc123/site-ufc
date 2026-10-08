@@ -77,6 +77,7 @@ nav{
 
 .imgcharles{
     border: 8px rgb(197, 168, 4) solid;
+    width: 40%;
 }
 
 .tituloaside{
@@ -84,8 +85,8 @@ nav{
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    text-transform: uppercase; /* Deixa em maiúsculas */
-    letter-spacing: 0.5px;      /* Ajusta o espaçamento das letras */
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;   
 }
 
 .ulcharlesindex li{
@@ -114,7 +115,7 @@ nav{
 
 .entrevista-natalia{
     display: flex;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center;
     gap: 20px;
     background-color: #ffffff;
     box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
@@ -131,8 +132,8 @@ nav{
     display: flex;
     align-items: center; 
     gap: 20px; 
-    background-color: #ffffff; /* Cor de fundo idêntica ao card de cima */
-    box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
+    background-color: #ffffff;
+    box-shadow: 0 1px 20px black;
     padding: 15px;
     max-width: 80%;
     margin: 0 auto;
@@ -149,10 +150,10 @@ nav{
 
 .figueiredoidx{
     display: flex;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center;
     gap: 20px;
     background-color: #ffffff;
-    box-shadow: 0 1px 20px black; /*borda com sombra desfocada*/
+    box-shadow: 0 1px 20px black;
     padding: 15px;
     max-width: 80%;
     margin: 0 auto;
@@ -162,134 +163,119 @@ nav{
     font-size: 28px;
 }
 
-/* ============================================================
-   ESTILOS GERAIS DO RODAPÉ
-   ============================================================ */
 
-/* Estilização da caixa principal do rodapé */
 .rodape-ufc {
-  background-color: #0d0d0d; /* Fundo cinza quase preto (estilo escuro do UFC) */
-  color: #ffffff;            /* Cor do texto geral em branco */
-  padding: 40px 20px 20px;   /* Espaçamento interno: 40px no topo, 20px nas laterais, 20px em baixo */
-  margin-top: 60px;          /* Espaço exterior na parte superior para afastar do conteúdo do site */
-  width: 100%;               /* Garante que o rodapé ocupe a largura total do ecrã */
-  box-sizing: border-box;    /* Garante que o padding não faça a largura passar dos 100% */
+  background-color: #0d0d0d; 
+  color: #ffffff;         
+  padding: 40px 20px 20px;  
+  margin-top: 60px;         
+  width: 100%;              
+  box-sizing: border-box;  
 }
 
-/* Container interno que limita a largura do conteúdo central */
+
 .rodape-conteudo {
-  max-width: 1100px; /* Largura máxima para alinhar o conteúdo com o centro da página */
-  margin: 0 auto;    /* Centraliza o bloco na horizontal */
+  max-width: 1100px;
+  margin: 0 auto;  
 }
 
-/* ============================================================
-   SECCÃO SUPERIOR (LOGO E REDES SOCIAIS)
-   ============================================================ */
+
 
 .rodape-topo {
-  display: flex;                /* Ativa o Flexbox para alinhar itens lado a lado */
-  justify-content: space-between;/* Atira o logo para a esquerda e as redes sociais para a direita */
-  align-items: center;         /* Centraliza o logo e os links verticalmente */
-  flex-wrap: wrap;              /* Permite que os elementos se moldem caso o ecrã seja pequeno */
-  gap: 15px;                    /* Espaço mínimo de segurança entre o logo e as redes */
+  display: flex;               
+  justify-content: space-between;
+  align-items: center;        
+  flex-wrap: wrap;              
+  gap: 15px;                   
 }
 
-/* Estilo do texto "UFC" */
+
 .logo-rodape {
-  font-family: 'Oswald', 'Impact', sans-serif; /* Aplica a fonte marcante e espessa */
-  font-size: 2.5rem;          /* Tamanho grande de texto */
-  font-weight: bold;          /* Texto em negrito */
-  letter-spacing: 1.5px;      /* Ligeiro afastamento entre as letras */
-  color: #ffffff;             /* Cor branca */
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 2.5rem;          
+  font-weight: bold;         
+  letter-spacing: 1.5px;      
+  color: #ffffff;            
 }
 
-/* Links das redes sociais */
+
 .redes-sociais a {
-  color: #aaaaaa;             /* Cor cinza claro para os links em estado normal */
-  text-decoration: none;      /* Remove o sublinhado padrão dos links */
-  margin-left: 20px;          /* Dá espaço entre cada link social */
-  font-size: 0.9rem;          /* Tamanho de letra ligeiramente reduzido */
-  transition: color 0.2s ease-in-out; /* Transição suave na mudança de cor ao passar o rato */
+  color: #aaaaaa;             
+  text-decoration: none;    
+  margin-left: 20px;     
+  font-size: 0.9rem;         
+  transition: color 0.2s ease-in-out; 
 }
 
-/* Efeito ao passar o rato (hover) nas redes sociais */
+
 .redes-sociais a:hover {
-  color: #d20a0a; /* Muda a cor para o vermelho oficial do UFC */
+  color: #d20a0a;
 }
 
-/* ============================================================
-   LINHA DIVISÓRIA
-   ============================================================ */
 
 .linha-divisoria {
-  border: 0;                   /* Remove a borda padrão do elemento <hr> */
-  border-top: 1px solid #262626; /*Cria uma linha fina num tom de cinza escuro */
-  margin: 25px 0;              /* Dá 25px de margem em cima e em baixo */
+  border: 0;                   
+  border-top: 1px solid #262626;
+  margin: 25px 0;  
 }
 
-/* ============================================================
-   SECCÃO CENTRAL (COLUNAS DE LINKS)
-   ============================================================ */
 
 .rodape-colunas {
-  display: flex;                 /* Usa Flexbox para colocar as colunas lado a lado */
-  justify-content: space-between; /* Distribui as colunas proporcionalmente */
-  flex-wrap: wrap;               /* Permite que as colunas quebrem linha em ecrãs menores */
-  gap: 30px;                     /* Espaço entre cada coluna */
+  display: flex;               
+  justify-content: space-between;
+  flex-wrap: wrap;          
+  gap: 30px;                   
 }
 
-/* Títulos das colunas ("Navegação", "Conteúdo", "Institucional") */
+
 .coluna h4 {
-  font-family: 'Oswald', sans-serif; /* Fonte do estilo UFC */
-  text-transform: uppercase;         /* Força todas as letras a ficarem em Maiúsculas */
-  color: #d20a0a;                    /* Vermelho UFC */
-  margin-bottom: 15px;               /* Distância entre o título e a lista de links */
-  font-size: 1.1rem;                 /* Tamanho do título */
-  letter-spacing: 0.5px;             /* Espaçamento entre letras */
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;       
+  color: #d20a0a;                   
+  margin-bottom: 15px;              
+  font-size: 1.1rem;               
+  letter-spacing: 0.5px;             
 }
 
-/* Limpeza das listas de links */
+
 .coluna ul {
-  list-style: none; /* Remove os pontos/bolinhas padrão da lista (<ul>) */
-  padding: 0;       /* Remove o recuo padrão interno */
-  margin: 0;        /* Remove as margens padrão */
+  list-style: none;
+  padding: 0; 
+  margin: 0;    
 }
 
-/* Cada item individual da lista */
+
 .coluna ul li {
-  margin-bottom: 10px; /* Distância vertical entre cada item da lista */
+  margin-bottom: 10px;
 }
 
-/* Links das colunas */
+
 .coluna ul li a {
-  color: #888888;                     /* Cinza médio para leitura agradável */
-  text-decoration: none;             /* Sem sublinhado */
-  font-size: 0.9rem;                 /* Tamanho do texto */
-  transition: color 0.2s ease-in-out;/* Transição suave ao passar o rato */
+  color: #888888;                   
+  text-decoration: none;           
+  font-size: 0.9rem;                
+  transition: color 0.2s ease-in-out;
 }
 
-/* Efeito de hover nos links das colunas */
+
 .coluna ul li a:hover {
-  color: #ffffff; /* O texto passa a branco quando o rato está em cima */
+  color: #ffffff; 
 }
 
-/* ============================================================
-   BASE DO RODAPÉ (COPYRIGHT E CRÉDITOS)
-   ============================================================ */
 
 .rodape-base {
-  margin-top: 40px;            /* Espaçamento acima em relação às colunas */
-  padding-top: 20px;           /* Espaçamento interno superior */
-  border-top: 1px solid #1a1a1a;/* Linha topo muito subtil para separar a área final */
-  text-align: center;          /* Centraliza o texto no meio do ecrã */
-  font-size: 0.8rem;           /* Texto pequeno para avisos legais */
-  color: #666666;              /* Tom de cinza mais apagado */
+  margin-top: 40px;          
+  padding-top: 20px;         
+  border-top: 1px solid #1a1a1a;
+  text-align: center;      
+  font-size: 0.8rem;          
+  color: #666666;           
 }
 
-/* Subtexto referente aos créditos do curso */
+
 .rodape-base .creditos {
-  margin-top: 5px;             /* Pequeno espaço acima */
-  color: #444444;              /* Tom de cinza ainda mais discreto */
+  margin-top: 5px;          
+  color: #444444;          
 }
 
 .titulo-categoria-genero{
@@ -375,4 +361,36 @@ nav{
   padding: 15px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.grupo-de-rankings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.caixas-ranking{
+  box-shadow: black 0 1px 10px;
+  padding: 30px;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.caixas-ranking ol li{
+  font-size: 20px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  color: #474747;
+}
+
+.caixas-ranking h2{
+  color: red;
+}
+
+.joshua-van{
+  padding-bottom: 23px;
 }
