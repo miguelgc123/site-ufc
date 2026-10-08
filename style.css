@@ -60,6 +60,11 @@ nav{
     padding: 0 20px;
 }
 
+.links a :hover{
+  transform: scale(1.1);
+  color: #0c0c0c;
+}
+
 .charlesdiego{
     display: flex;
     justify-content: center;
@@ -363,6 +368,13 @@ nav{
   font-weight: 600;
 }
 
+.rankings-geral h4{
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .grupo-de-rankings{
   display: flex;
   justify-content: center;
@@ -388,9 +400,56 @@ nav{
 }
 
 .caixas-ranking h2{
-  color: red;
+  color: rgb(117, 16, 16);
 }
 
-.joshua-van{
-  padding-bottom: 23px;
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  width: 740px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px;
+  box-shadow: #0c0c0c 0 1px 10px;
+  gap: 1px;
+}
+
+.cadastro input{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.cadastro label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.titulo-cadastro{
+  text-align: center;
+  margin-top: 50px; 
+  text-transform: uppercase;
+  font-size: 50px;
+  color: rgb(117, 15, 35);
+}
+
+.enviar{
+  width: 20%;
+  padding: 15px 0;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bolder;
+  transition: 1s;
+  margin: 10px 0px;
+}
+
+.enviar:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.2);
 }
